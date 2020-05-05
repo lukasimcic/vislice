@@ -1,5 +1,5 @@
 # vislice
 
-Jurij Vega
+Janez Janša
 Matija Pretnar
 Ivan Vivav
