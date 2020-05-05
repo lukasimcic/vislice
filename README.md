@@ -1,5 +1,5 @@
 # vislice
 
-Jurij Vega
+Borut Pahor
 Matija Pretnar
 Ivan Vivav
