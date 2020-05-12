@@ -3,12 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# personal
-.vscode/
-.vscode
-vscode/
-.vscode/tasks.json
-
 # C extensions
 *.so
 
