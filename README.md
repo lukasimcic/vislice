@@ -1,5 +1,3 @@
 # vislice
 
-Borut Pahor
-Matija Pretnar
-Ivan Vivav
+neki z vislicami
