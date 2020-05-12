@@ -1,3 +1,3 @@
 # vislice
 
-neki z vislicami
+Program za igro vislic.
