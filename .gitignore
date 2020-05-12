@@ -2,7 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# personal
+.vscode/
 .vscode
+vscode/
 
 # C extensions
 *.so
