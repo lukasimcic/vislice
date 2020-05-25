@@ -11,7 +11,7 @@ def index():
 
 @bottle.get('/img/<picture>')
 def static_file(picture):
-    return bottle.static_file(picture, 'img')
+    return bottle.static_file(picture, root='img')
 
 @bottle.post('/igra/')
 def nova_igra():
@@ -25,7 +25,7 @@ def pokazi_igro(id_igre):
 
 @bottle.post('/igra/<id_igre:int>/')
 def ugibaj(id_igre):
-    crka = bottle.request.forms.get('crka')
+    crka = bottle.request.forms.getunicode('crka')
     vislice.ugibaj(id_igre, crka)
     bottle.redirect(f'/igra/{id_igre}/')
 
