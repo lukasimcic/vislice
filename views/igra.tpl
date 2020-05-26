@@ -1,9 +1,6 @@
+% rebase('base.tpl')
+
 % import model
-
-<!DOCTYPE html>
-<html>
-
-<body>
 
 % if stanje != model.ZMAGA and stanje != model.PORAZ:
 
@@ -30,17 +27,13 @@
 % elif stanje == model.PORAZ:
     Pravilno geslo: {{igra.geslo}} <br>
     <b>Več sreče prihodnjič</b>
-    <form action="/igra/" method="post">
+    <form action="/nova_igra/" method="post">
         <button type="submit">Nova igra</button>
     </form>
 
 % else:
-    <form method="post" action="/igra/{{id_igre}}/">
+    <form method="post" action="/igra/">
         <input name="crka" /> <input type="submit" value="Ugibaj!">
     </form>
 
 % end 
-
-</body>
-
-</html>
